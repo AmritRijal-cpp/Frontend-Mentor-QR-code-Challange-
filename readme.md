@@ -1,1 +1,1 @@
-<img src="images/qr-desktop.png" alt="QR-Desktop">
+![freeCodeCamp Social Banner](https://s3.amazonaws.com/freecodecamp/wide-social-banner.png)
