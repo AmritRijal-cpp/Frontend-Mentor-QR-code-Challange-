@@ -41,14 +41,15 @@ Screeenshot of the webpage in mobile resolution.
 ### What I learned
 
 I learned how to centralize a child class to his parent class.
-I did it with the help of absolute positioning.
+I did it with the help of flexbox and min-height and min-width.
 
 ```css
 #main {
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-width:  100vw;
+      min-height: 100vh;
 }
 ```
 
