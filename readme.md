@@ -44,11 +44,11 @@ I learned how to centralize a child class to his parent class.
 I did it with the help of flexbox and min-height and min-width.
 
 ```css
-#main {
+body {
       display: flex;
-      align-items: center;
+      flex-direction: column;
       justify-content: center;
-      min-width:  100vw;
+      align-items: center;
       min-height: 100vh;
 }
 ```
