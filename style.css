@@ -20,29 +20,22 @@ body {
     background-color: hsl(0, 0%, 100%);
     padding: 1.25rem;
     border-radius: 1rem;
-    width: 26rem;
+    width: 19rem;
+    margin: 2rem;
 }
 
-#main h1 {
+.article {
+    font-size: 1rem;
     text-align: center;
+    padding: 1rem;
+}
+
+.article h1 {
     color: hsl(218, 44%, 22%);
-    margin: 1rem;
 }
 
-#main p {
-    font-size: 0.938rem;
-    text-align: center;
+.article p {
     color: hsl(220, 15%, 55%);
-    margin: 1rem;
-}
-
-@media (max-width: 31.25rem) {
-    #main {
-        width: 17rem;
-    }
-    h1 {
-        font-size: 1.3rem;
-    }
 }
 
 .attribution {
